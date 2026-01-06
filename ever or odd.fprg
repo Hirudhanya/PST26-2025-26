@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="if condition"/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:13:28 PM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC0wSVVPSjJVOzIwMjYtMDEtMDY7MTA6MTk6MzIgQU07MjU1NQ=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC0wSVVPSjJVOzIwMjYtMDEtMDY7MDM6MTM6MjggUE07MjsyNjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <if expression="num1%2==0">
+                <then>
+                    <output expression="&quot;even number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;odd number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
