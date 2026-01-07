@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-10 using iteration"/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 08:59:01 AM"/>
+        <attribute name="created" value="aHA7REVTS1RPUC0wSVVPSjJVOzIwMjYtMDEtMDY7MDk6NTM6MDUgUE07MjU3Ng=="/>
+        <attribute name="edited" value="aHA7REVTS1RPUC0wSVVPSjJVOzIwMjYtMDEtMDc7MDg6NTk6MDEgQU07NDsyNjc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, sum" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="i&lt;=100">
+                <assign variable="sum" expression="sum+i"/>
+                <assign variable="i" expression="i+2"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
